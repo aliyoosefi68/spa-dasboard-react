@@ -1,0 +1,121 @@
+.product {
+  flex: 4;
+  padding: 20px;
+}
+.productTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.productAddButton {
+  border: none;
+  width: 80px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: teal;
+  color: #fff;
+  border-radius: 5px;
+}
+.productTop {
+  display: flex;
+}
+.produtTopLeft,
+.produtTopRight {
+  flex: 1;
+}
+.produtTopRight {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productInfoItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+.productInfoTop {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+.productImageTop {
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.productInfoTop span {
+  font-weight: bold;
+  font-size: 22px;
+}
+.productInfoItem:nth-child(odd) {
+  background-color: #eeeeee;
+}
+.productInfoKey {
+  font-weight: bold;
+  font-size: 13px;
+}
+.productInfoValue {
+  font-size: 13px;
+  opacity: 0.8;
+}
+.productBottom {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+.productformLeft {
+  display: flex;
+  flex-direction: column;
+}
+.productformLeft label {
+  margin-bottom: 5px;
+  color: gray;
+  font-size: 14px;
+}
+.productformLeft input {
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid silver;
+  padding: 10px;
+}
+
+.productformLeft input:focus {
+  outline: none;
+}
+
+.productformLeft select {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.productformRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.productUploader {
+  display: flex;
+  align-items: center;
+}
+
+.productUploadImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.productButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
